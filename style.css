@@ -1,0 +1,78 @@
+body{
+
+    background-color: #3B0273;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    padding: 10px;
+    margin: auto;
+    text-align: center;   
+        
+}
+
+header img {
+    width: 200px; /* Defina a largura desejada */
+    height: 200px; /* Defina a altura desejada */
+    display: block; /* Permite definir margens laterais automáticas */
+    margin: 0 auto;
+    
+}
+
+
+.title1 {
+
+    text-align: center;
+
+}
+
+.title1 h1{
+
+    color: #F29422;
+    padding: 5px;
+    font-family: "orbitron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+            
+}
+
+p{
+    font-family: "orbitron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+
+}
+
+#formprincipal{
+
+    padding: 40px 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 300px;
+    background-color:#F29422;
+    box-shadow: 0 9px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+#formprincipal.input{
+
+    margin-bottom: 0.2px;
+    padding: 1.5px;
+    border-radius: 25px;
+}
+
+footer{
+
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
